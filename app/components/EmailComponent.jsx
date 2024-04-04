@@ -24,6 +24,9 @@ const EmailComponent = () => {
           <Link href="linkedin.com">
             <Image src={LinkedinIcon} alt="Linkedin Icon" />
           </Link>
+          <Link href="instagram.com">
+          
+          </Link>
         </div>
       </div>
       <div>

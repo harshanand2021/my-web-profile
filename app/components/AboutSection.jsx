@@ -64,7 +64,7 @@ const AboutSection = () => {
           priority
           alt="about-section-img"
         />
-        <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
+        <div className="mt-3 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
             Hello, I'm Harsh Anand, a seasoned full-stack Java developer. With a
@@ -80,27 +80,24 @@ const AboutSection = () => {
           <div className="flex flex-row justify-start mt-8">
             <TabButton
               selectTab={() => handleTabChange("skills")}
-              active={tab == "skills"}
+              active={tab === "skills"}
             >
-              {" "}
-              Skills{" "}
+              Skills
             </TabButton>
             <TabButton
               selectTab={() => handleTabChange("education")}
-              active={tab == "education"}
+              active={tab === "education"}
             >
-              {" "}
-              Education{" "}
+              Education
             </TabButton>
             <TabButton
               selectTab={() => handleTabChange("certification")}
-              active={tab == "certification"}
+              active={tab === "certification"}
             >
-              {" "}
-              Certifications{" "}
+              Certification
             </TabButton>
           </div>
-          <div className="mt-8">
+          <div className="mt-6">
             {TAB_DATA.find((t) => t.id === tab).content}
           </div>
         </div>

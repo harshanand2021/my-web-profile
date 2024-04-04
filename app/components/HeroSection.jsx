@@ -25,7 +25,7 @@ const HeroSection = () => {
               ]}
               wrapper="span"
               speed={50}
-              style={{ fontSize: "24px", display: "inline-block" }}
+              style={{ fontSize: "21px", display: "inline-block" }}
               repeat={Infinity}
             />
           </h1>
@@ -50,7 +50,7 @@ const HeroSection = () => {
             <Image
               src="/images/profile-image.JPG"
               alt="profile img"
-              className="absolute transform : -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+              className="absolute transform  -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
               width={190}
               height={90}
             />
